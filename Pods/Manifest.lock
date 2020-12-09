@@ -1,0 +1,34 @@
+PODS:
+  - DTTextField (0.4.0)
+  - Nimble (9.0.0)
+  - Quick (3.0.0)
+  - Realm (10.2.0):
+    - Realm/Headers (= 10.2.0)
+  - Realm/Headers (10.2.0)
+  - RealmSwift (10.2.0):
+    - Realm (= 10.2.0)
+
+DEPENDENCIES:
+  - DTTextField
+  - Nimble
+  - Quick
+  - RealmSwift
+
+SPEC REPOS:
+  trunk:
+    - DTTextField
+    - Nimble
+    - Quick
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  DTTextField: 4b9bab01faec50a98d42d24ba39ed122461f866f
+  Nimble: 3b4ec3fd40f1dc178058e0981107721c615643d8
+  Quick: 6d9559f40647bc4d510103842ef2fdd882d753e2
+  Realm: d7914ebf66bb182469726f997c4c38eff286aab0
+  RealmSwift: aad08b7dc8c732b7b5794286e9df83739bf834f1
+
+PODFILE CHECKSUM: fc66d51ff710de8a837d16b22bce903c9b957ea3
+
+COCOAPODS: 1.10.0

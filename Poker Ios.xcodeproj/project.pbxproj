@@ -1,0 +1,933 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E0BFED72579142800314804 /* NestedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0BFED62579142800314804 /* NestedTableViewController.swift */; };
+		2E276B6D257DC13C0032CF84 /* AdjustableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E276B6C257DC13C0032CF84 /* AdjustableTabBarController.swift */; };
+		2E276B7F257DF9170032CF84 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E276B7E257DF9170032CF84 /* Common.swift */; };
+		2E276B82257E12A90032CF84 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E276B81257E12A90032CF84 /* Response.swift */; };
+		2E276B8B257E15360032CF84 /* HandResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E276B8A257E15360032CF84 /* HandResponse.swift */; };
+		2E5373A12580516B001C5C12 /* AtoneTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5373A02580516B001C5C12 /* AtoneTextField.swift */; };
+		2E5373CA258072FC001C5C12 /* DatabaseSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5373C9258072FC001C5C12 /* DatabaseSpec.swift */; };
+		2E5374152580797A001C5C12 /* Poker_IosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5374142580797A001C5C12 /* Poker_IosUITests.swift */; };
+		2EB94E32257CDC010062998F /* InputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB94E31257CDC010062998F /* InputController.swift */; };
+		2EB94E39257D15950062998F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB94E38257D15950062998F /* Card.swift */; };
+		2EB94E3E257D3D2D0062998F /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB94E3D257D3D2D0062998F /* ResultCell.swift */; };
+		2EB94E42257D3F330062998F /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB94E41257D3F330062998F /* ResultController.swift */; };
+		2EB94E45257D401F0062998F /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB94E44257D401F0062998F /* Result.swift */; };
+		2EC531672574BCD1007BC019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC531662574BCD1007BC019 /* AppDelegate.swift */; };
+		2EC531692574BCD1007BC019 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC531682574BCD1007BC019 /* SceneDelegate.swift */; };
+		2EC5316B2574BCD1007BC019 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5316A2574BCD1007BC019 /* ViewController.swift */; };
+		2EC5316E2574BCD1007BC019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC5316C2574BCD1007BC019 /* Main.storyboard */; };
+		2EC531702574BCD3007BC019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EC5316F2574BCD3007BC019 /* Assets.xcassets */; };
+		2EC531732574BCD3007BC019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC531712574BCD3007BC019 /* LaunchScreen.storyboard */; };
+		2EC5317C2574C220007BC019 /* HandTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5317B2574C220007BC019 /* HandTableViewCell.swift */; };
+		2EC5317F2574C708007BC019 /* HandTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5317E2574C708007BC019 /* HandTableViewController.swift */; };
+		2EC531822574CA1B007BC019 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC531812574CA1B007BC019 /* Hand.swift */; };
+		2EC531862574F5F0007BC019 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC531852574F5F0007BC019 /* MealTableViewCell.swift */; };
+		2EC531892574FAC4007BC019 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC531882574FAC4007BC019 /* MealTableViewController.swift */; };
+		2EC5318C2574FAEE007BC019 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5318B2574FAEE007BC019 /* Meal.swift */; };
+		2EC7A881257FA86100C215B7 /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC7A880257FA86100C215B7 /* HistoryController.swift */; };
+		2EC7A885257FA96F00C215B7 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC7A884257FA96F00C215B7 /* HistoryCell.swift */; };
+		2EC7A88D257FD22700C215B7 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC7A88C257FD22700C215B7 /* ErrorResponse.swift */; };
+		97FDEC30FCC2215B6AC82017 /* Pods_Poker_Ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D579D1E6FFB126EFD14711DE /* Pods_Poker_Ios.framework */; };
+		E357B5C3B19EB27DDE5B708F /* Pods_Poker_IosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0137452F25C9F0390A689C05 /* Pods_Poker_IosTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E5373AE25806C64001C5C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EC5315B2574BCD1007BC019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EC531622574BCD1007BC019;
+			remoteInfo = "Poker Ios";
+		};
+		2E5373BE25806D69001C5C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EC5315B2574BCD1007BC019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EC531622574BCD1007BC019;
+			remoteInfo = "Poker Ios";
+		};
+		2E5374172580797A001C5C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EC5315B2574BCD1007BC019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EC531622574BCD1007BC019;
+			remoteInfo = "Poker Ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0137452F25C9F0390A689C05 /* Pods_Poker_IosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Poker_IosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0BFED62579142800314804 /* NestedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTableViewController.swift; sourceTree = "<group>"; };
+		2E276B6C257DC13C0032CF84 /* AdjustableTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustableTabBarController.swift; sourceTree = "<group>"; };
+		2E276B7E257DF9170032CF84 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		2E276B81257E12A90032CF84 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		2E276B8A257E15360032CF84 /* HandResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandResponse.swift; sourceTree = "<group>"; };
+		2E5373A02580516B001C5C12 /* AtoneTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtoneTextField.swift; sourceTree = "<group>"; };
+		2E5373A925806C64001C5C12 /* Poker IosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poker IosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5373AD25806C64001C5C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E5373B925806D69001C5C12 /* Poker IosTestssss.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poker IosTestssss.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5373C9258072FC001C5C12 /* DatabaseSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseSpec.swift; sourceTree = "<group>"; };
+		2E5374122580797A001C5C12 /* Poker IosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poker IosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5374142580797A001C5C12 /* Poker_IosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poker_IosUITests.swift; sourceTree = "<group>"; };
+		2E5374162580797A001C5C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB94E31257CDC010062998F /* InputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputController.swift; sourceTree = "<group>"; };
+		2EB94E38257D15950062998F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		2EB94E3D257D3D2D0062998F /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
+		2EB94E41257D3F330062998F /* ResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
+		2EB94E44257D401F0062998F /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		2EC531632574BCD1007BC019 /* Poker Ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poker Ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC531662574BCD1007BC019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EC531682574BCD1007BC019 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2EC5316A2574BCD1007BC019 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EC5316D2574BCD1007BC019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EC5316F2574BCD3007BC019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EC531722574BCD3007BC019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EC531742574BCD3007BC019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EC5317B2574C220007BC019 /* HandTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandTableViewCell.swift; sourceTree = "<group>"; };
+		2EC5317E2574C708007BC019 /* HandTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandTableViewController.swift; sourceTree = "<group>"; };
+		2EC531812574CA1B007BC019 /* Hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		2EC531852574F5F0007BC019 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		2EC531882574FAC4007BC019 /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		2EC5318B2574FAEE007BC019 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		2EC7A880257FA86100C215B7 /* HistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
+		2EC7A884257FA96F00C215B7 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		2EC7A88C257FD22700C215B7 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		671CE8041802D8A92B714B8E /* Pods-Poker IosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Poker IosTests.release.xcconfig"; path = "Target Support Files/Pods-Poker IosTests/Pods-Poker IosTests.release.xcconfig"; sourceTree = "<group>"; };
+		C018F35855694FAD2DB2F64B /* Pods-Poker Ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Poker Ios.debug.xcconfig"; path = "Target Support Files/Pods-Poker Ios/Pods-Poker Ios.debug.xcconfig"; sourceTree = "<group>"; };
+		CA990230C441DFBE3FFEC1C4 /* Pods-Poker Ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Poker Ios.release.xcconfig"; path = "Target Support Files/Pods-Poker Ios/Pods-Poker Ios.release.xcconfig"; sourceTree = "<group>"; };
+		D579D1E6FFB126EFD14711DE /* Pods_Poker_Ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Poker_Ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8DA1A3174C397C7F5497F2 /* Pods-Poker IosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Poker IosTests.debug.xcconfig"; path = "Target Support Files/Pods-Poker IosTests/Pods-Poker IosTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E5373A625806C64001C5C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E357B5C3B19EB27DDE5B708F /* Pods_Poker_IosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E5373B625806D69001C5C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E53740F2580797A001C5C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EC531602574BCD1007BC019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97FDEC30FCC2215B6AC82017 /* Pods_Poker_Ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E276B6B257DC0890032CF84 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				2E276B6C257DC13C0032CF84 /* AdjustableTabBarController.swift */,
+				2E5373A02580516B001C5C12 /* AtoneTextField.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		2E5373A325806713001C5C12 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Icon;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		2E5373AA25806C64001C5C12 /* Poker IosTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E5373C9258072FC001C5C12 /* DatabaseSpec.swift */,
+				2E5373AD25806C64001C5C12 /* Info.plist */,
+			);
+			path = "Poker IosTests";
+			sourceTree = "<group>";
+		};
+		2E5374132580797A001C5C12 /* Poker IosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E5374142580797A001C5C12 /* Poker_IosUITests.swift */,
+				2E5374162580797A001C5C12 /* Info.plist */,
+			);
+			path = "Poker IosUITests";
+			sourceTree = "<group>";
+		};
+		2E62329025760352009CCEA7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E0BFED62579142800314804 /* NestedTableViewController.swift */,
+				2EB94E31257CDC010062998F /* InputController.swift */,
+				2EB94E41257D3F330062998F /* ResultController.swift */,
+				2EC7A880257FA86100C215B7 /* HistoryController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2EB94E37257D15380062998F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2EC531812574CA1B007BC019 /* Hand.swift */,
+				2EC5318B2574FAEE007BC019 /* Meal.swift */,
+				2EB94E38257D15950062998F /* Card.swift */,
+				2EB94E44257D401F0062998F /* Result.swift */,
+				2E276B81257E12A90032CF84 /* Response.swift */,
+				2E276B8A257E15360032CF84 /* HandResponse.swift */,
+				2EC7A88C257FD22700C215B7 /* ErrorResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2EB94E3C257D3D100062998F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2EC5317B2574C220007BC019 /* HandTableViewCell.swift */,
+				2EB94E3D257D3D2D0062998F /* ResultCell.swift */,
+				2EC7A884257FA96F00C215B7 /* HistoryCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2EC5315A2574BCD1007BC019 = {
+			isa = PBXGroup;
+			children = (
+				2EC531652574BCD1007BC019 /* Poker Ios */,
+				2E5373AA25806C64001C5C12 /* Poker IosTests */,
+				2E5374132580797A001C5C12 /* Poker IosUITests */,
+				2EC531642574BCD1007BC019 /* Products */,
+				B72730236A9C0E28A44D79CE /* Pods */,
+				B2ADAFBCB7EE1305962E1A57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2EC531642574BCD1007BC019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EC531632574BCD1007BC019 /* Poker Ios.app */,
+				2E5373A925806C64001C5C12 /* Poker IosTests.xctest */,
+				2E5373B925806D69001C5C12 /* Poker IosTestssss.xctest */,
+				2E5374122580797A001C5C12 /* Poker IosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EC531652574BCD1007BC019 /* Poker Ios */ = {
+			isa = PBXGroup;
+			children = (
+				2E5373A325806713001C5C12 /* Icon */,
+				2E276B6B257DC0890032CF84 /* Widgets */,
+				2EB94E3C257D3D100062998F /* Cells */,
+				2EB94E37257D15380062998F /* Models */,
+				2E62329025760352009CCEA7 /* Controllers */,
+				2EC531662574BCD1007BC019 /* AppDelegate.swift */,
+				2EC531682574BCD1007BC019 /* SceneDelegate.swift */,
+				2EC5316A2574BCD1007BC019 /* ViewController.swift */,
+				2EC5316C2574BCD1007BC019 /* Main.storyboard */,
+				2EC531882574FAC4007BC019 /* MealTableViewController.swift */,
+				2EC531852574F5F0007BC019 /* MealTableViewCell.swift */,
+				2EC5317E2574C708007BC019 /* HandTableViewController.swift */,
+				2EC5316F2574BCD3007BC019 /* Assets.xcassets */,
+				2EC531712574BCD3007BC019 /* LaunchScreen.storyboard */,
+				2EC531742574BCD3007BC019 /* Info.plist */,
+				2E276B7E257DF9170032CF84 /* Common.swift */,
+			);
+			path = "Poker Ios";
+			sourceTree = "<group>";
+		};
+		B2ADAFBCB7EE1305962E1A57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D579D1E6FFB126EFD14711DE /* Pods_Poker_Ios.framework */,
+				0137452F25C9F0390A689C05 /* Pods_Poker_IosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B72730236A9C0E28A44D79CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C018F35855694FAD2DB2F64B /* Pods-Poker Ios.debug.xcconfig */,
+				CA990230C441DFBE3FFEC1C4 /* Pods-Poker Ios.release.xcconfig */,
+				FE8DA1A3174C397C7F5497F2 /* Pods-Poker IosTests.debug.xcconfig */,
+				671CE8041802D8A92B714B8E /* Pods-Poker IosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E5373A825806C64001C5C12 /* Poker IosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E5373B025806C64001C5C12 /* Build configuration list for PBXNativeTarget "Poker IosTests" */;
+			buildPhases = (
+				743E18F5DFBE84F3EDE4660F /* [CP] Check Pods Manifest.lock */,
+				2E5373A525806C64001C5C12 /* Sources */,
+				2E5373A625806C64001C5C12 /* Frameworks */,
+				2E5373A725806C64001C5C12 /* Resources */,
+				3DAE5166845A450E551A2E25 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E5373AF25806C64001C5C12 /* PBXTargetDependency */,
+			);
+			name = "Poker IosTests";
+			productName = "Poker IosTests";
+			productReference = 2E5373A925806C64001C5C12 /* Poker IosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E5373B825806D69001C5C12 /* Poker IosTestssss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E5373C025806D69001C5C12 /* Build configuration list for PBXNativeTarget "Poker IosTestssss" */;
+			buildPhases = (
+				2E5373B525806D69001C5C12 /* Sources */,
+				2E5373B625806D69001C5C12 /* Frameworks */,
+				2E5373B725806D69001C5C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E5373BF25806D69001C5C12 /* PBXTargetDependency */,
+			);
+			name = "Poker IosTestssss";
+			productName = "Poker IosTestssss";
+			productReference = 2E5373B925806D69001C5C12 /* Poker IosTestssss.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E5374112580797A001C5C12 /* Poker IosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E53741B2580797A001C5C12 /* Build configuration list for PBXNativeTarget "Poker IosUITests" */;
+			buildPhases = (
+				2E53740E2580797A001C5C12 /* Sources */,
+				2E53740F2580797A001C5C12 /* Frameworks */,
+				2E5374102580797A001C5C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E5374182580797A001C5C12 /* PBXTargetDependency */,
+			);
+			name = "Poker IosUITests";
+			productName = "Poker IosUITests";
+			productReference = 2E5374122580797A001C5C12 /* Poker IosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2EC531622574BCD1007BC019 /* Poker Ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EC531772574BCD3007BC019 /* Build configuration list for PBXNativeTarget "Poker Ios" */;
+			buildPhases = (
+				63CAC7DAEADF6E1FFA411D89 /* [CP] Check Pods Manifest.lock */,
+				2EC5315F2574BCD1007BC019 /* Sources */,
+				2EC531602574BCD1007BC019 /* Frameworks */,
+				2EC531612574BCD1007BC019 /* Resources */,
+				AB6CF263E2D754E876F5FB29 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Poker Ios";
+			productName = "Poker Ios";
+			productReference = 2EC531632574BCD1007BC019 /* Poker Ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EC5315B2574BCD1007BC019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					2E5373A825806C64001C5C12 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 2EC531622574BCD1007BC019;
+					};
+					2E5373B825806D69001C5C12 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 2EC531622574BCD1007BC019;
+					};
+					2E5374112580797A001C5C12 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 2EC531622574BCD1007BC019;
+					};
+					2EC531622574BCD1007BC019 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 2EC5315E2574BCD1007BC019 /* Build configuration list for PBXProject "Poker Ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EC5315A2574BCD1007BC019;
+			productRefGroup = 2EC531642574BCD1007BC019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EC531622574BCD1007BC019 /* Poker Ios */,
+				2E5373A825806C64001C5C12 /* Poker IosTests */,
+				2E5373B825806D69001C5C12 /* Poker IosTestssss */,
+				2E5374112580797A001C5C12 /* Poker IosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E5373A725806C64001C5C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E5373B725806D69001C5C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E5374102580797A001C5C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EC531612574BCD1007BC019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EC531732574BCD3007BC019 /* LaunchScreen.storyboard in Resources */,
+				2EC531702574BCD3007BC019 /* Assets.xcassets in Resources */,
+				2EC5316E2574BCD1007BC019 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DAE5166845A450E551A2E25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Poker IosTests/Pods-Poker IosTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Poker IosTests/Pods-Poker IosTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Poker IosTests/Pods-Poker IosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63CAC7DAEADF6E1FFA411D89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Poker Ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		743E18F5DFBE84F3EDE4660F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Poker IosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB6CF263E2D754E876F5FB29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Poker Ios/Pods-Poker Ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Poker Ios/Pods-Poker Ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Poker Ios/Pods-Poker Ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E5373A525806C64001C5C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5373CA258072FC001C5C12 /* DatabaseSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E5373B525806D69001C5C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E53740E2580797A001C5C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5374152580797A001C5C12 /* Poker_IosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EC5315F2574BCD1007BC019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EC5317C2574C220007BC019 /* HandTableViewCell.swift in Sources */,
+				2E276B8B257E15360032CF84 /* HandResponse.swift in Sources */,
+				2EC5316B2574BCD1007BC019 /* ViewController.swift in Sources */,
+				2EC531862574F5F0007BC019 /* MealTableViewCell.swift in Sources */,
+				2E276B82257E12A90032CF84 /* Response.swift in Sources */,
+				2E276B6D257DC13C0032CF84 /* AdjustableTabBarController.swift in Sources */,
+				2EB94E42257D3F330062998F /* ResultController.swift in Sources */,
+				2EC7A881257FA86100C215B7 /* HistoryController.swift in Sources */,
+				2E0BFED72579142800314804 /* NestedTableViewController.swift in Sources */,
+				2EC531672574BCD1007BC019 /* AppDelegate.swift in Sources */,
+				2EC7A885257FA96F00C215B7 /* HistoryCell.swift in Sources */,
+				2EC5318C2574FAEE007BC019 /* Meal.swift in Sources */,
+				2EC531692574BCD1007BC019 /* SceneDelegate.swift in Sources */,
+				2EB94E3E257D3D2D0062998F /* ResultCell.swift in Sources */,
+				2EC531822574CA1B007BC019 /* Hand.swift in Sources */,
+				2E5373A12580516B001C5C12 /* AtoneTextField.swift in Sources */,
+				2EB94E39257D15950062998F /* Card.swift in Sources */,
+				2EC531892574FAC4007BC019 /* MealTableViewController.swift in Sources */,
+				2EC7A88D257FD22700C215B7 /* ErrorResponse.swift in Sources */,
+				2EB94E32257CDC010062998F /* InputController.swift in Sources */,
+				2E276B7F257DF9170032CF84 /* Common.swift in Sources */,
+				2EB94E45257D401F0062998F /* Result.swift in Sources */,
+				2EC5317F2574C708007BC019 /* HandTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E5373AF25806C64001C5C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EC531622574BCD1007BC019 /* Poker Ios */;
+			targetProxy = 2E5373AE25806C64001C5C12 /* PBXContainerItemProxy */;
+		};
+		2E5373BF25806D69001C5C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EC531622574BCD1007BC019 /* Poker Ios */;
+			targetProxy = 2E5373BE25806D69001C5C12 /* PBXContainerItemProxy */;
+		};
+		2E5374182580797A001C5C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EC531622574BCD1007BC019 /* Poker Ios */;
+			targetProxy = 2E5374172580797A001C5C12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EC5316C2574BCD1007BC019 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EC5316D2574BCD1007BC019 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EC531712574BCD3007BC019 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EC531722574BCD3007BC019 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E5373B125806C64001C5C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE8DA1A3174C397C7F5497F2 /* Pods-Poker IosTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Poker IosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "atone.Poker-IosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poker Ios.app/Poker Ios";
+			};
+			name = Debug;
+		};
+		2E5373B225806C64001C5C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 671CE8041802D8A92B714B8E /* Pods-Poker IosTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Poker IosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "atone.Poker-IosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poker Ios.app/Poker Ios";
+			};
+			name = Release;
+		};
+		2E5373C125806D69001C5C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Poker IosTestssss/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "atone.Poker-IosTestssss";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poker Ios.app/Poker Ios";
+			};
+			name = Debug;
+		};
+		2E5373C225806D69001C5C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Poker IosTestssss/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "atone.Poker-IosTestssss";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poker Ios.app/Poker Ios";
+			};
+			name = Release;
+		};
+		2E5374192580797A001C5C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Poker IosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "atone.Poker-IosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Poker Ios";
+			};
+			name = Debug;
+		};
+		2E53741A2580797A001C5C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Poker IosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "atone.Poker-IosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Poker Ios";
+			};
+			name = Release;
+		};
+		2EC531752574BCD3007BC019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2EC531762574BCD3007BC019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EC531782574BCD3007BC019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C018F35855694FAD2DB2F64B /* Pods-Poker Ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Poker Ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "atone.Poker-Ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EC531792574BCD3007BC019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA990230C441DFBE3FFEC1C4 /* Pods-Poker Ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Poker Ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "atone.Poker-Ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E5373B025806C64001C5C12 /* Build configuration list for PBXNativeTarget "Poker IosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E5373B125806C64001C5C12 /* Debug */,
+				2E5373B225806C64001C5C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E5373C025806D69001C5C12 /* Build configuration list for PBXNativeTarget "Poker IosTestssss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E5373C125806D69001C5C12 /* Debug */,
+				2E5373C225806D69001C5C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E53741B2580797A001C5C12 /* Build configuration list for PBXNativeTarget "Poker IosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E5374192580797A001C5C12 /* Debug */,
+				2E53741A2580797A001C5C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EC5315E2574BCD1007BC019 /* Build configuration list for PBXProject "Poker Ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EC531752574BCD3007BC019 /* Debug */,
+				2EC531762574BCD3007BC019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EC531772574BCD3007BC019 /* Build configuration list for PBXNativeTarget "Poker Ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EC531782574BCD3007BC019 /* Debug */,
+				2EC531792574BCD3007BC019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EC5315B2574BCD1007BC019 /* Project object */;
+}
